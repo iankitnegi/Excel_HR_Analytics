@@ -60,10 +60,23 @@ Column Description for attendance sheet:
 ### Data Cleaning & Transformation
 - Combining Data From Multiple Worksheets In The Same Excel Workbook.
 - Created a template by unpivoting the other columns except employee no & name just to automate.
-- 
-- 
+- Removed errors & perform proper data validation
+- Transforming data in a dynamic way using google [Reference Link](https://blog.crossjoin.co.uk/2018/07/09/power-bi-combine-multiple-excel-worksheets/)
 
+## 4. ANALYZE
+Data Analyzing  
+Power BI was used to analyze data.
 
+### Key Metrics:    
+#### Calculated Columns:
+- WFH Count = SWITCH(TRUE(),'Final Data'[Value]="WFH", 1, 'Final Data'[Value]="HWFH", 0.5, 0)
+- Month = STARTOFMONTH('Final Data'[Date])
+
+#### Measures:
+- Presence % = DIVIDE([Present Days],[Total Working Days],0)
+- Present Days = VAR _presentdays = CALCULATE(COUNT('Final Data'[Value]), 'Final Data'[Value]="P") RETURN presentdays + [WFH Count]
+- Total Working Days = VAR _totaldays = COUNT('Final Data'[Value]) VAR _nonworkingdays = CALCULATE(COUNT('Final Data'[Value]), 'Final Data'[Value] IN {"WO", "HO"}) RETURN _totaldays-_nonworkingdays
+- WFH Count = SUM('Final Data'[WFH Count])
 
 
 
