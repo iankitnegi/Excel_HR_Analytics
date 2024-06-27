@@ -101,7 +101,7 @@ The relationship of costs associated with Total Compensation spend, including sa
 Degree to which employees are engaged with and committed to the strategy and objectives of the organization.  
 =No Particular formula, depends on the organisation.
 
-# HR METRICS EXPLAIN IN DETAILS
+# HR METRICS EXPLAIN IN DETAILS WITH EXAMPLES
 HR metrics are numbers that help us understand how well a company's HR department is doing. They give us information about things like how good the employees are at their jobs, how happy they are, and how well the HR programs and activities are working. By looking at these numbers, the HR team can make better decisions, find ways to make things even better, and make sure their plans match the company's goals.
 
 ## HR Performance Metrics
