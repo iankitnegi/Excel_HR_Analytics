@@ -227,4 +227,101 @@ __________________________________________________________________
 
 Example: Let's consider a company that has 500 employees and promotes 50 employees to higher positions or roles within a given year.    
 
-Promotion Rate = 50/500 × 100 = 10%
+Promotion Rate = 50/500 × 100 = 10%    
+
+## Recruitment Metrics    
+1. Time to Fill: Time to Fill is a metric that measures the average amount of time it takes to fill a vacant position within an organization. It quantifies the duration between the initiation of the recruitment process and the successful placement of a candidate in the position.
+=Total days to fill vacant positions / No. of vacant positions      
+
+Example: Let's say a company had three vacant positions during a specific period. The time taken to fill those positions was as follows: Position 1 took 30 days to fill, Position 2 took 45 days to fill, and Position 3 took 60 days to fill.    
+
+Time to Fill = (30 + 45 + 60) / 3 = 45 days
+__________________________________________________________________
+2. Time to Hire: Time to Hire is a metric that measures the average amount of time it takes to complete the hiring process for a new employee. It quantifies the duration between the initiation of the recruitment process and the candidate's acceptance of the job offer.
+=Total days to hire / No. of hires  
+
+Example: Let's assume a company made 10 hires during a specific period, and the time taken to complete the hiring process for each hire was as follows: Hire 1 took 20 days, Hire 2 took 25 days, Hire 3 took 30 days, and so on.    
+
+Time to Hire = (20 + 25 + 30 + ... + 𝑛)/10    
+To calculate the precise Time to Hire, you would need to sum up the total number of days it took for each hire and divide it by the number of hires.
+__________________________________________________________________
+3. Cost per Hire: Cost per Hire is a metric that measures the average cost incurred by an organization to hire a new employee. It quantifies the expenses associated with the recruitment and onboarding process, including sourcing candidates, advertising, interviewing, selection, and orientation.
+=Total recruiting costs / No. of hires
+
+Example: Let's assume a company incurred $50, 000in recruiting costs during a specific period and made 10 hires.  
+
+Cost per Hire = $50,000 / 10 = $5000
+__________________________________________________________________
+4. First Year Attrition: First Year Attrition is a metric that measures the rate at which employees leave an organization within their first year of employment. It indicates the proportion of employees who voluntarily or involuntarily separate from the company during their initial year of service.    
+=(Number of Employees who left within the first year / No. of employees hired) x100    
+
+Example: Let's say a company hired 50 employees during a specific year, and out of those, 10 employees left the company within their first year.      
+
+First Year Attrition Rate = (10 / 50) × 100 = 20%
+__________________________________________________________________
+5. Applicants per Opening: Applicants per Opening is a metric that measures the number of job applicants received for each job opening within an organization. It indicates the level of interest and competition among job seekers for available positions.  
+=Total No. of Applicants / No. of job openings  
+
+Example: Let's say a company receives 500 job applications for 10 job openings.  
+
+Applicants per Opening = 500 / 10 = 50  
+__________________________________________________________________
+6. Selection Ratio: Selection Ratio is a metric that measures the proportion of job applicants who are ultimately selected for a position within an organization. It indicates the competitiveness of the selection process and the percentage of candidates who successfully move forward in the hiring process.  
+=No. of hires / No. of applicants  
+
+Example: Let's say a company receives 500 job applications and hires 10 candidates.  
+
+Selection Ratio = 10 / 500 = 0.02  
+__________________________________________________________________
+7. Offer Acceptance Rate: Offer Acceptance Rate is a metric that measures the percentage of job offers extended by an organization that are accepted by candidates. It indicates the success rate of the organization in securing the commitment of selected candidates to join the company.  
+=(No. of offers accepted / No. of offers extended) x100
+
+Example: Let's say a company extended job offers to 20 candidates, and out of those, 15 candidates accepted the offers.  
+
+Offer Acceptance Rate = (15 / 20) × 100 = 75%  
+__________________________________________________________________
+8. Vacancy Rate: Vacancy Rate is a metric that measures the percentage of vacant positions within an organization during a specific period. It indicates the extent to which positions are unoccupied or unfilled, and reflects the organization's ability to maintain a fully staffed workforce.  
+=(No. of vacant positions / Total no. of positions) x100  
+
+Example: Let's say a company has 50 vacant positions out of a total of 500 positions.    
+Vacancy Rate = 50 / 500 × 100 = 10%  
+__________________________________________________________________
+9. Application Completion Rate: Application Completion Rate is a metric that measures the percentage of job applicants who successfully complete the entire application process. It indicates the level of engagement and commitment of applicants in completing the required steps and providing all necessary information during the application process.
+=No. of completed applications / No. of started applications   
+
+Example: Let's say a company received 200 applications for a specific job posting, and out of those, 150 applicants successfully completed the entire application process.  
+
+Application Completion Rate = (150 / 200) × 100 = 75%  
+__________________________________________________________________
+10. Promotion Rate: Promotion Rate is a metric that measures the percentage of employees within an organization who are promoted to higher-level positions during a specific period. It indicates the organization's ability to recognize and reward employee growth, development, and advancement.    
+=(Number of promoted employees / Total no. of employees) x100
+
+Example: Let's say a company promoted 20 employees out of a total of 200 employees.  
+
+Promotion Rate = (20 / 200) × 100 = 10%
+__________________________________________________________________
+11. Succession Rate: Succession Rate is a metric that measures the percentage of key positions within an organization that have identified successors ready to assume those positions in the event of a vacancy or planned transition. It assesses the organization's preparedness for leadership and critical role succession.
+=(No. of key positions with identified successors / Total no. of key positions) × 100
+
+Example: Let's say a company has identified successors for 80 key positions out of a total of 100 key positions.  
+
+Succession Rate = (80 / 100) × 100 = 80%    
+
+## Training and Development Metrics
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
