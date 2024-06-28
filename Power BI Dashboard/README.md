@@ -2,7 +2,7 @@
 
 
 ## 1. ASK
-HR: Pinali Mandalia    
+Co-Founder: Dhaval Patel & HR: Pinali Mandalia    
 
 ### Questions:
 - Working preference of the people? WFH or WFO
@@ -71,12 +71,19 @@ Power BI was used to analyze data.
 #### Calculated Columns:
 - WFH Count = SWITCH(TRUE(),'Final Data'[Value]="WFH", 1, 'Final Data'[Value]="HWFH", 0.5, 0)
 - Month = STARTOFMONTH('Final Data'[Date])
+- SL Count = SWITCH(TRUE(), 'Final Data'[Value]="SL", 1, 'Final Data'[Value]="HSL", 0.5, 0)
 
 #### Measures:
 - Presence % = DIVIDE([Present Days],[Total Working Days],0)
 - Present Days = VAR _presentdays = CALCULATE(COUNT('Final Data'[Value]), 'Final Data'[Value]="P") RETURN presentdays + [WFH Count]
+- SL % = DIVIDE([SL Count], [Total Working Days], 0)
+- SL Count = SUM('Final Data'[SL Count])
 - Total Working Days = VAR _totaldays = COUNT('Final Data'[Value]) VAR _nonworkingdays = CALCULATE(COUNT('Final Data'[Value]), 'Final Data'[Value] IN {"WO", "HO"}) RETURN _totaldays-_nonworkingdays
+- WFH % = DIVIDE([WFH Count], [Present Days], 0)
 - WFH Count = SUM('Final Data'[WFH Count])
+
+## 5. SHARE 
+
 
 
 
