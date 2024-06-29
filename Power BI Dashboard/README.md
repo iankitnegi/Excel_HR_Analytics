@@ -86,15 +86,20 @@ Power BI was used to analyze data.
 - WFH Count = SUM('Final Data'[WFH Count])
 
 ## 5. SHARE   
+![Screenshot (137)](https://github.com/iankitnegi/HR_Analytics/assets/132642567/985238ef-a344-4c6a-9aea-0a23a6105ae8)    
 
+## 6. ACT
+### Insights:  
+- In Q1, the overall attendance rate was 91.83%, while the sick leave rate was 1.10%.
+- In May, the percentage of employees working from home (WFH) was higher than in other months of the quarter, surpassing 11.2%.
+- "Friday" is the day with the highest number of employees taking WFH, with "Thursday" being the second most popular day.
+- However, in June 2022, "Monday" became the most common day for employees to take WFH.
 
+### Recommendations:
+- Analyze why "Monday" became the most common WFH day in June 2022 by reviewing workload distributions, meeting schedules, and personal employee preferences.
+- Monitor and adjust workloads to prevent productivity declines due to higher WFH rates on Fridays and Thursdays.
+- Continue fostering a positive work environment and providing support to maintain and potentially improve the high attendance rate of 91.83% in Q1.
+- Address the 1.10% sick leave rate by promoting wellness programs, offering flu shots, and encouraging healthy habits among employees.    
 
-
-
-
-
-
-
-
-
-
+Thank you for reading and evaluating my repo :)    
+Live Dashboard [Link](https://app.powerbi.com/view?r=eyJrIjoiMWM4ZmVjODQtYWI3Ni00ZWFhLTgxMDUtNjk3MjYyZTAyNDQ0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
