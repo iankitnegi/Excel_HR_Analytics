@@ -1,4 +1,5 @@
-# Problem Statement 
+# Problem Statement   
+Atliq Technologies, a leading company in its industry, aims to understand and optimize its employee attendance and work preferences to enhance productivity and employee satisfaction. The HR department, led by Pinali, has identified key areas of interest that require detailed analysis and visualization like employee work preferences, attendance patterns & reason behind specific attendance behaviors through an interactive dashboard.
 
 
 ## 1. ASK
@@ -72,6 +73,8 @@ Power BI was used to analyze data.
 - WFH Count = SWITCH(TRUE(),'Final Data'[Value]="WFH", 1, 'Final Data'[Value]="HWFH", 0.5, 0)
 - Month = STARTOFMONTH('Final Data'[Date])
 - SL Count = SWITCH(TRUE(), 'Final Data'[Value]="SL", 1, 'Final Data'[Value]="HSL", 0.5, 0)
+- Day of week = FORMAT('Final Data'[Date], "ddd")
+- Day# = WEEKDAY('Final Data'[Date],2)
 
 #### Measures:
 - Presence % = DIVIDE([Present Days],[Total Working Days],0)
@@ -82,7 +85,8 @@ Power BI was used to analyze data.
 - WFH % = DIVIDE([WFH Count], [Present Days], 0)
 - WFH Count = SUM('Final Data'[WFH Count])
 
-## 5. SHARE 
+## 5. SHARE   
+
 
 
 
