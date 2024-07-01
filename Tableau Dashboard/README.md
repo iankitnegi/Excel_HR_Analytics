@@ -1,5 +1,8 @@
 # Problem Statement
-As an HR manager of XYZ company, I need a comprehensive dashboard that allows me to analyze human resources data. The dashboard should provide both summary views for high-level insights and detailed employee records for in-depth analysis.
+As an HR manager of XYZ company, I need a comprehensive dashboard that allows me to analyze human resources data. The dashboard should provide both summary views for high-level insights and detailed employee records for in-depth analysis.    
+
+## 1. ASK  
+HR Manager: Baraa Khatib Salkini  
 
 ### Summary View:  
 The summary view should be divided into three main sections: Overview, Demographics, and Income Analysis
@@ -24,3 +27,6 @@ The summary view should be divided into three main sections: Overview, Demograph
 ### Employee Records View:
 - Provide a comprehensive list of all employees with necessary information such as name, department, position, gender, age, education, and salary.
 - Users should be able to filter the list based on any of the available columns.
+
+## 2. PREPARE  
+
