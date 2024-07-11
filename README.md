@@ -308,7 +308,11 @@ Example: Let's say a company has identified successors for 80 key positions out 
 Succession Rate = (80 / 100) × 100 = 80%    
 
 ## Training and Development Metrics
-1. 
+1. Competency Rate: Competency Rate is a metric that measures the percentage of employees within an organization who possess the required competencies or skills to perform their job effectively. It assesses the level of alignment between the competencies expected for a particular role and the competencies demonstrated by employees in that role.
+=Number of Employees Possessing Required Competencies/ Total No. of employees in the role) x100
+
+Example: Let's say a company has 100 employees in a specific role, and after evaluating their competencies, it is determined that 80 employees possess the required competencies.
+Competency Rate = 80/100 × 100 = 80%
 
 
 
